@@ -1,0 +1,15 @@
+<h1>{{headline}}</h1>
+<form class="example-form" (ngSubmit)="handleSubmit($event)">
+  <mat-form-field class="example-full-width">
+    <input matInput name="food" placeholder="What to do" [(ngModel)]="form.todo">
+  </mat-form-field>
+
+  <mat-checkbox name="done" [(ngModel)]="form.done">Check when item is done</mat-checkbox>
+
+  <br>
+  <button type="submit" mat-raised-button>Submit</button>
+
+</form>
+
+<br>
+{{form|json}}

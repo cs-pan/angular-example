@@ -1,0 +1,6 @@
+<H1> What to do?</H1>
+<mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let todo of (todoService.todos$|async)">
+        <mat-icon *ngIf="todo.done">done</mat-icon> {{todo.todo}}
+    </mat-list-item>
+</mat-list>

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-angular-project';
+  title = 'My Angular Project';
+
+  onNewTodo($event) {
+    console.log(JSON.stringify($event));
+  }
 }
