@@ -1,6 +1,6 @@
 # MyAngularProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
+This is the code that i used to demonstrate angular in the course EDAF90 - web programming, 2019-02-21.
 
 ## Development server
 
